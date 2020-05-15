@@ -1,0 +1,59 @@
+h2{
+	 font-size:52px;
+    color:#0799D7;
+    font-weight: bold;
+    text-align: center;
+}
+#image{
+	
+	height:720px; 
+	width:555px;
+    position: relative;
+    bottom: 0px;
+    right: 85px;
+    background-size: 100% 100%;
+    
+}
+
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+
+
+input[type=text], input[type=password], input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#sign{
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+input[type=submit] {
+  background-color: #0E357D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+input[type=submit] {
+  opacity: 0.8;
+}

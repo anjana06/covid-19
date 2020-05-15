@@ -1,0 +1,62 @@
+h1{
+    
+    font-size:40px;
+    color:#ffffff;
+    position: absolute;
+    right:808px;
+    bottom: 336px;
+   
+
+
+    
+}
+
+button {
+  background-color: #012535;
+  color: white;
+  padding: 10px 24px;
+ 
+  border-radius: 8px;
+  cursor: pointer;
+  width:57%;
+  height: 7%;
+  opacity: 0.9;
+
+}
+.button1{
+	 margin: 25px 327px;
+}
+.button2{
+	 margin: 6px -67px;
+}
+
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid #004B65;
+
+}
+
+th {
+  background:linear-gradient(to top, #004B65 20%, #ffffff 100%);
+
+  color: white;
+  height: 50px;
+  padding: 15px;
+
+}
+
+td {
+  
+  height: 40px;
+  vertical-align: middle;
+  padding: 15px;
+}
+
+tr:hover {background-color: #A5DCEC;
+}

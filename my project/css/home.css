@@ -1,0 +1,194 @@
+/*home css*/
+h1{
+    
+    font-size:40px;
+    color:#ffffff;
+    position: absolute;
+    right:808px;
+    bottom: 336px;
+   
+
+
+    
+}
+h5{
+  margin-left:53px; 
+   position:absolute;
+    top:120px;   
+}
+//.sub{
+   
+}
+
+.menu-item{
+    text-align:center;
+    text-transform:uppercase;
+    background-color:#E37816;
+    color:#7C2A3A;
+    padding:10px 0;
+}
+
+.menu-item:hover{
+    background-color:#DD7C75;
+    color:#D9211B;
+}
+
+#searchbox{
+    margin-left: 480px;
+    margin-top: 22px;
+}
+
+#update{
+         font-size: 20px;
+     color: #ffffff;
+     margin-left: 306px;
+    position: absolute;
+    top: 249px;
+}
+
+#marque{
+     font-size: 20px;
+     color: #D9211B;
+}
+
+
+
+#course h2{
+    text-align:center;
+    text-transform:uppercase;
+    padding:5px 0;
+    border-bottom:4px solid #034F39;
+}
+
+#features h2{
+     text-align:center;
+    text-transform:uppercase;
+    padding:5px 0;
+    border-bottom:4px solid #034F39;
+
+}
+
+#sym{
+    text-align: center;
+     font-weight: bold; 
+     font-size: 25px;
+}
+#center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#size{
+    font-size: 20px;
+}
+
+footer{
+    text-align:center;
+    background-color:#1B6B88;
+    color:#ffffff;
+    padding:20px 0;
+}
+
+footer ul{
+    list-style-type:none;
+}
+
+
+
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color:#012535;
+  color: white;
+  padding: 14px 20px;
+  margin: 16px 554px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 50%;
+  height:20%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+
+
+/* Add padding to container elements */
+.sign {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
